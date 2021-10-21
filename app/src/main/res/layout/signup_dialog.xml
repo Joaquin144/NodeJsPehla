@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/nameEdit"
+        android:hint="Enter Name"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/emailEdit"
+        android:hint="Enter Email"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/passwordEdit"
+        android:hint="Enter Password"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/signUp"
+        android:layout_margin="4dp"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
